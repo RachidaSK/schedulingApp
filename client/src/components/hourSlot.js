@@ -61,7 +61,6 @@ class HourBtn extends React.Component {
         this.setState({
             [event.target.name]: event.target.value
         })
-        console.log('hi')
     
     }
 
@@ -92,7 +91,8 @@ class HourBtn extends React.Component {
                             </ModalBody>
                             <ModalFooter>
                                 <Button   color="primary" onClick={this.submit(9)}>Submit</Button>
-                                <Button color="secondary" onClick={this.toggle(9)}>Cancel</Button>
+                                <Button color="success" onClick={this.handleChange}>Update</Button>
+                                <Button color="secondary" onClick={this.toggle(9)}>Close</Button>
                             </ModalFooter>
                         </Modal>              
                     </Col>
@@ -118,7 +118,8 @@ class HourBtn extends React.Component {
                             </ModalBody>
                             <ModalFooter>
                                 <Button   color="primary" onClick={this.submit(10)}>Submit</Button>
-                                <Button color="secondary" onClick={this.toggle(10)}>Cancel</Button>
+                                <Button color="success" onClick={this.handleChange}>Update</Button>
+                                <Button color="secondary" onClick={this.toggle(10)}>Close</Button>
                             </ModalFooter>
                         </Modal>              
                     </Col>
@@ -144,7 +145,8 @@ class HourBtn extends React.Component {
                             </ModalBody>
                             <ModalFooter>
                                 <Button   color="primary" onClick={this.submit(11)}>Submit</Button>
-                                <Button color="secondary" onClick={this.toggle(11)}>Cancel</Button>
+                                <Button color="success" onClick={this.handleChange}>Update</Button>
+                                <Button color="secondary" onClick={this.toggle(11)}>Close</Button>
                             </ModalFooter>
                         </Modal>              
                     </Col>
@@ -170,7 +172,8 @@ class HourBtn extends React.Component {
                             </ModalBody>
                             <ModalFooter>
                                 <Button   color="primary" onClick={this.submit(12)}>Submit</Button>
-                                <Button color="secondary" onClick={this.toggle(12)}>Cancel</Button>
+                                <Button color="success" onClick={this.handleChange}>Update</Button>
+                                <Button color="secondary" onClick={this.toggle(12)}>Close</Button>
                             </ModalFooter>
                         </Modal>              
                     </Col>
@@ -196,7 +199,8 @@ class HourBtn extends React.Component {
                             </ModalBody>
                             <ModalFooter>
                                 <Button   color="primary" onClick={this.submit(13)}>Submit</Button>
-                                <Button color="secondary" onClick={this.toggle(13)}>Cancel</Button>
+                                <Button color="success" onClick={this.handleChange}>Update</Button>
+                                <Button color="secondary" onClick={this.toggle(13)}>Close</Button>
                             </ModalFooter>
                         </Modal>              
                     </Col>
@@ -222,7 +226,8 @@ class HourBtn extends React.Component {
                             </ModalBody>
                             <ModalFooter>
                                 <Button   color="primary" onClick={this.submit(14)}>Submit</Button>
-                                <Button color="secondary" onClick={this.toggle(14)}>Cancel</Button>
+                                <Button color="success" onClick={this.handleChange}>Update</Button>
+                                <Button color="secondary" onClick={this.toggle(14)}>Close</Button>
                             </ModalFooter>
                         </Modal>              
                     </Col>
@@ -248,7 +253,8 @@ class HourBtn extends React.Component {
                             </ModalBody>
                             <ModalFooter>
                                 <Button   color="primary" onClick={this.submit(15)}>Submit</Button>
-                                <Button color="secondary" onClick={this.toggle(15)}>Cancel</Button>
+                                <Button color="success" onClick={this.handleChange}>Update</Button>
+                                <Button color="secondary" onClick={this.toggle(15)}>Close</Button>
                             </ModalFooter>
                         </Modal>              
                     </Col>
@@ -274,7 +280,8 @@ class HourBtn extends React.Component {
                             </ModalBody>
                             <ModalFooter>
                                 <Button   color="primary" onClick={this.submit(16)}>Submit</Button>
-                                <Button color="secondary" onClick={this.toggle(16)}>Cancel</Button>
+                                <Button color="success" onClick={this.handleChange}>Update</Button>
+                                <Button color="secondary" onClick={this.toggle(16)}>Close</Button>
                             </ModalFooter>
                         </Modal>              
                     </Col>
@@ -300,7 +307,8 @@ class HourBtn extends React.Component {
                             </ModalBody>
                             <ModalFooter>
                                 <Button   color="primary" onClick={this.submit(17)}>Submit</Button>
-                                <Button color="secondary" onClick={this.toggle(17)}>Cancel</Button>
+                                <Button color="success" onClick={this.handleChange}>Update</Button>
+                                <Button color="secondary" onClick={this.toggle(17)}>Close</Button>
                             </ModalFooter>
                         </Modal>              
                     </Col>
