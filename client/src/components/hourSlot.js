@@ -68,7 +68,7 @@ class Time extends React.Component {
     render() {
         return(
             <Col>
-                <Button color="success" onClick={this.toggle} className={`rounded-circle hourBtn booked-${this.state.booked}`}>{this.props.buttonLabel}</Button>
+                <Button  onClick={this.toggle} className={`rounded-circle hourBtn booked-${this.state.booked}`}>{this.props.buttonLabel}</Button>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                     <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
                     <ModalBody>

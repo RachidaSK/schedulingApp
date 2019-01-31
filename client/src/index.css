@@ -23,6 +23,14 @@ code {
   margin-right: -20px;
 }
 
+button.booked-false:hover {
+  background-color: lightseagreen;
+}
+
+button.booked-true:hover {
+  background-color: red;
+}
+
 button.booked-false {
   background-color: lightseagreen;
   border-color: lightseagreen;
@@ -30,7 +38,7 @@ button.booked-false {
 
 button.booked-true {
   background-color: red;
-  border-color: lightseagreen;
+  border-color: red;
 }
 
 
