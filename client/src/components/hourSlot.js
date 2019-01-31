@@ -26,10 +26,9 @@ for(let i = startTime ; i < endTimeGMT + 1; i++ ) {
 const Timebtn = () => (
     <Container>
         <Row>
-        {hours.map((hour,i) => (
+            {hours.map((hour,i) => (
                 <Time buttonLabel={hour}/>
-         
-    ))}
+            ))}
         </Row>
         
     </Container>
@@ -69,31 +68,31 @@ class Time extends React.Component {
     render() {
         return(
             <Col>
-        <Button color="success" onClick={this.toggle} className={`rounded-circle hourBtn booked-${this.state.booked}`}>{this.props.buttonLabel}</Button>
-        <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
-          <ModalBody>
-            <Form>
-                <FormGroup row>
-                    <Label for="exampleUser" sm={1}><i className="fa fa-user prefix"></i></Label>
-                    <Col sm={11}>
-                        <Input type="text" name="FullName" id="exampleUser" placeholder="Full Name" onChange={this.handleChange} value={this.state.FullName}/>
-                    </Col>
-                </FormGroup>
-                <FormGroup row>
-                    <Label for="examplePhone" sm={1}><i className="fas fa-phone"></i></Label>
-                    <Col sm={11}>
-                        <Input type="text" name="PhoneNumb" id="examplePhone" placeholder="Phone Number" onChange={this.handleChange} value={this.state.PhoneNumb}/>
-                    </Col>
-                </FormGroup>
-            </Form>
-          </ModalBody>
-          <ModalFooter>
-            <Button color="primary" onClick={this.handleSubmit}>Submit</Button>
-            <Button color="secondary" onClick={this.toggle}>Close</Button>
-          </ModalFooter>
-        </Modal>
-      </Col>
+                <Button color="success" onClick={this.toggle} className={`rounded-circle hourBtn booked-${this.state.booked}`}>{this.props.buttonLabel}</Button>
+                <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+                    <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+                    <ModalBody>
+                        <Form>
+                            <FormGroup row>
+                                <Label for="exampleUser" sm={1}><i className="fa fa-user prefix"></i></Label>
+                                <Col sm={11}>
+                                    <Input type="text" name="FullName" id="exampleUser" placeholder="Full Name" onChange={this.handleChange} value={this.state.FullName}/>
+                                </Col>
+                            </FormGroup>
+                            <FormGroup row>
+                                <Label for="examplePhone" sm={1}><i className="fas fa-phone"></i></Label>
+                                <Col sm={11}>
+                                    <Input type="text" name="PhoneNumb" id="examplePhone" placeholder="Phone Number" onChange={this.handleChange} value={this.state.PhoneNumb}/>
+                                </Col>
+                            </FormGroup>
+                        </Form>
+                    </ModalBody>
+                    <ModalFooter>
+                        <Button color="primary" onClick={this.handleSubmit}>Submit</Button>
+                        <Button color="secondary" onClick={this.toggle}>Close</Button>
+                    </ModalFooter>
+                </Modal>
+            </Col>
         )
     }
 }
